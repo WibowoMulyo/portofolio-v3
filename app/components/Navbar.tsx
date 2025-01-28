@@ -50,7 +50,7 @@ const Navbar = () => {
             <li className="hidden lg:inline-block">
               <Button asChild variant={"outline"}>
                 <Link
-                  href="https://docs.google.com/document/d/1jnYvZupcr-X6wX14Zle4cbByPDL28q9G/edit?usp=sharing&ouid=117286734583247503794&rtpof=true&sd=true"
+                  href="https://docs.google.com/document/d/1YXLoVJaMu_EJpfcHtwz6jxfM3QR5gwWo/edit?usp=sharing&ouid=117286734583247503794&rtpof=true&sd=true"
                   className=" border-[1px] border-black"
                   target="_blank"
                   rel="noopener noreferrer"
