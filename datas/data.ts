@@ -55,8 +55,8 @@ export const technologies = [
     iconLink: "https://cdn.simpleicons.org/flask",
   },
   {
-    name: "C++",
-    iconLink: "https://cdn.simpleicons.org/C++",
+    name: "Docker",
+    iconLink: "https://cdn.simpleicons.org/docker",
   },
   {
     name: "MySQL",
