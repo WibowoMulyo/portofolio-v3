@@ -98,7 +98,7 @@ export const schoolsInfo = [
     location: "Informatics Engineering",
     duration: "2022 - Now",
     roles: [
-      "Current GPA: 3.91 / 4.00 (Summa Cum Laude)",
+      "Current GPA: 3.93 / 4.00 (Summa Cum Laude)",
       "Outstanding Student of the 2022 Cohort",
       "Laboratory Assistant for Software Engineering and Database courses",
     ],
