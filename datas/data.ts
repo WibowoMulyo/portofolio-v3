@@ -108,7 +108,7 @@ export const schoolsInfo = [
 export const projects = [
   {
     name: "Co-Working Space Reservation",
-    type: "Intership Project",
+    type: "Internship Project",
     description:
       "A web-based application designed to streamline the process of reserving desks in a co-working space. Users can browse available desks, select their preferred date and time, and complete reservations efficiently. The platform ensures a seamless booking experience with secure authentication and an intuitive interface.",
     image: "/reservation.png",
@@ -117,7 +117,7 @@ export const projects = [
   },
   {
     name: "STI BK",
-    type: "Intership Project",
+    type: "Internship Project",
     description:
       "A web-based application used in Career Guidance courses to manage student activities, attendance, and assessments in a structured manner, supporting efficient progress monitoring and reporting.",
     image: "/stibk.png",
