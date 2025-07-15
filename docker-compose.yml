@@ -1,12 +1,31 @@
-version: "3"
+version: "3.8"
+
 services:
-  nextjs:
+  portfolio:
     build: .
-    ports:
-      - "3000:3000"
-    restart: always
+    container_name: portfolio-app
+    expose:
+      - "3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
+    restart: unless-stopped
     networks:
-      - nextjs_network
+      - portfolio_network
+
+  nginx:
+    image: nginx:alpine
+    container_name: portfolio-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - portfolio
+    restart: unless-stopped
+    networks:
+      - portfolio_network
+
 networks:
-  nextjs_network:
+  portfolio_network:
     driver: bridge
