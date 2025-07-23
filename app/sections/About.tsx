@@ -18,17 +18,22 @@ const About = () => {
         <div className="w-full lg:w-[50%] flex flex-col gap-2 order-2 lg:order-1">
           <h4 className="font-bold ">Technologies i work with</h4>
           <div style={{ backgroundImage: "url('/patterns/pattern-4.svg')" }}>
-            <ul className="px-8 py-8 flex flex-row  h-auto sm:flex-col gap-4 sm:h-80 lg:gap-2 lg:h-72  flex-wrap w-full font-idgrotesk">
-              {technologies.map((tech) => (
-                <li className="flex filter grayscale hover:grayscale-0  items-center cursor-pointer gap-5 transition-all duration-300 dark:filter dark:brightness-50 dark:invert hover:dark:brightness-100 hover:dark:invert-0">
+            <ul className="px-4 py-6 sm:px-6 sm:py-8 flex flex-wrap gap-3 sm:gap-4 lg:gap-3 w-full font-idgrotesk justify-center sm:justify-start">
+              {technologies.map((tech, index) => (
+                <li
+                  key={index}
+                  className="flex filter grayscale hover:grayscale-0 items-center cursor-pointer gap-2 sm:gap-3 lg:gap-2 transition-all duration-300 dark:filter dark:brightness-50 dark:invert hover:dark:brightness-100 hover:dark:invert-0 bg-white/10 dark:bg-black/10 rounded-lg p-2 sm:p-3 lg:p-2 hover:bg-white/20 dark:hover:bg-black/20 min-w-fit"
+                >
                   <img
                     src={tech.iconLink}
                     alt={tech.name}
-                    height={50}
-                    width={50}
-                    className=""
+                    height={30}
+                    width={30}
+                    className="sm:h-[35px] sm:w-[35px] lg:h-[30px] lg:w-[30px]"
                   />
-                  <span className="hidden sm:inline-block">{tech.name}</span>
+                  <span className="hidden sm:inline-block text-sm lg:text-xs xl:text-sm font-medium whitespace-nowrap">
+                    {tech.name}
+                  </span>
                 </li>
               ))}
             </ul>

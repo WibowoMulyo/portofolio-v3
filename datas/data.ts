@@ -7,7 +7,7 @@ export const socialLinks = [
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/wibowo-mulyo-a5b174326/",
-    simpleIcon: "https://cdn.simpleicons.org/linkedin",
+    simpleIcon: "https://cdn-icons-png.flaticon.com/128/3536/3536569.png",
   },
   {
     name: "Instagram",
@@ -23,20 +23,40 @@ export const socialLinks = [
 
 export const technologies = [
   {
-    name: "NextJS",
-    iconLink: "https://cdn.simpleicons.org/nextdotjs",
+    name: "HTML5",
+    iconLink: "https://cdn.simpleicons.org/html5",
   },
   {
-    name: "React",
-    iconLink: "https://cdn.simpleicons.org/react",
+    name: "CSS",
+    iconLink: "https://cdn-icons-png.flaticon.com/128/732/732190.png",
   },
   {
     name: "JavaScript",
     iconLink: "https://cdn.simpleicons.org/javascript",
   },
   {
+    name: "TypeScript",
+    iconLink: "https://cdn.simpleicons.org/typescript",
+  },
+  {
+    name: "ReactJS",
+    iconLink: "https://cdn.simpleicons.org/react",
+  },
+  {
+    name: "NextJS",
+    iconLink: "https://cdn.simpleicons.org/nextdotjs",
+  },
+  {
     name: "TailwindCSS",
     iconLink: "https://cdn.simpleicons.org/TailwindCSS",
+  },
+  {
+    name: "Bootstrap",
+    iconLink: "https://cdn.simpleicons.org/bootstrap",
+  },
+  {
+    name: "Node.js",
+    iconLink: "https://cdn.simpleicons.org/nodedotjs",
   },
   {
     name: "PHP",
@@ -47,20 +67,36 @@ export const technologies = [
     iconLink: "https://cdn.simpleicons.org/laravel",
   },
   {
-    name: "Python",
-    iconLink: "https://cdn.simpleicons.org/python",
-  },
-  {
     name: "Flask",
     iconLink: "https://cdn.simpleicons.org/flask",
   },
   {
-    name: "Docker",
-    iconLink: "https://cdn.simpleicons.org/docker",
+    name: "Filament",
+    iconLink: "https://cdn.simpleicons.org/filament",
+  },
+  {
+    name: "Streamlit",
+    iconLink: "https://cdn.simpleicons.org/streamlit",
+  },
+  {
+    name: "C++",
+    iconLink: "https://cdn.simpleicons.org/cplusplus",
+  },
+  {
+    name: "Java",
+    iconLink: "https://cdn-icons-png.flaticon.com/128/5968/5968282.png",
+  },
+  {
+    name: "Python",
+    iconLink: "https://cdn.simpleicons.org/python",
   },
   {
     name: "MySQL",
     iconLink: "https://cdn.simpleicons.org/mysql",
+  },
+  {
+    name: "MariaDB",
+    iconLink: "https://cdn.simpleicons.org/mariadb",
   },
   {
     name: "PostgreSQL",
@@ -69,6 +105,18 @@ export const technologies = [
   {
     name: "Git",
     iconLink: "https://cdn.simpleicons.org/git",
+  },
+  {
+    name: "Postman",
+    iconLink: "https://cdn.simpleicons.org/postman",
+  },
+  {
+    name: "Figma",
+    iconLink: "https://cdn.simpleicons.org/figma",
+  },
+  {
+    name: "Docker",
+    iconLink: "https://cdn.simpleicons.org/docker",
   },
 ];
 
@@ -111,8 +159,8 @@ export const projects = [
     type: "Internship Project",
     description:
       "A web-based application designed to streamline the process of reserving desks in a co-working space. Users can browse available desks, select their preferred date and time, and complete reservations efficiently. The platform ensures a seamless booking experience with secure authentication and an intuitive interface.",
-    image: "/reservation.png",
-    liveLink: "https://bengkodreservation.vercel.app/",
+    image: "/reservation.webp",
+    liveLink: "https://reservasi.bengkelkoding.dinus.id/",
     stacks: ["Laravel", "NextJS", "TailwindCSS", "PostgreSQL", "JWT"],
   },
   {
@@ -120,9 +168,27 @@ export const projects = [
     type: "Internship Project",
     description:
       "A web-based application used in Career Guidance courses to manage student activities, attendance, and assessments in a structured manner, supporting efficient progress monitoring and reporting.",
-    image: "/stibk.png",
+    image: "/stibk.webp",
     liveLink: "https://sti.dinus.ac.id/BK",
-    stacks: ["Laravel", "NextJS", "TailwindCSS"],
+    stacks: ["Laravel", "NextJS", "TailwindCSS", "MySQL"],
+  },
+  {
+    name: "Sismenkes",
+    type: "Personal Project",
+    description:
+      "Sismenkes is a comprehensive health management system designed to streamline healthcare operations and patient data management. The platform features patient registration, medical record management, appointment scheduling, and health monitoring tools, providing healthcare professionals with efficient digital solutions for delivering quality medical services and improving patient care coordination.",
+    image: "/sismenkes.webp",
+    liveLink: "https://sismenkes.wibowomulyoo.my.id/",
+    stacks: ["Laravel", "AdminLTE", "Bootstrap", "MySQL", "Docker"],
+  },
+  {
+    name: "Poliklinik Wibex",
+    type: "Personal Project",
+    description:
+      "Poliklinik Wibex is a web platform designed for managing patient information and appointments in a clinic. It streamlines the process of patient registration, appointment scheduling, and medical record management.",
+    image: "/poliklinik.webp",
+    liveLink: "https://poliklinik-wibex.wibowomulyoo.my.id/",
+    stacks: ["Laravel", "Breeze", "MySQL", "Docker"],
   },
   {
     name: "Fitcamp",
@@ -140,7 +206,7 @@ export const projects = [
       "Contacts App is a simple web application that allows users to manage their contact information with features like Create, Read, Update, and Delete (CRUD). It provides an intuitive interface for organizing and editing contact details efficiently.",
     image: "/contactsapp.png",
     githubLink: "https://github.com/WibowoMulyo/dicoding-contacts-app",
-    stacks: ["React", "TailwindCSS", "JavaScript"],
+    stacks: ["ReactJS", "TailwindCSS", "JavaScript"],
   },
   {
     name: "Persnotes",
@@ -149,7 +215,7 @@ export const projects = [
       "Persnotes is a note-taking application that allows users to efficiently manage their notes with features like adding, deleting, and archiving notes. It provides an easy-to-use interface for organizing personal information and ideas.",
     image: "/persnotes.png",
     githubLink: "https://github.com/WibowoMulyo/dicoding-persnotes",
-    stacks: ["React", "TailwindCSS", "JavaScript"],
+    stacks: ["ReactJS", "TailwindCSS", "JavaScript"],
   },
   {
     name: "GuessMaster",
