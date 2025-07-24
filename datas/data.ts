@@ -195,7 +195,7 @@ export const projects = [
     type: "Personal Project",
     description:
       "Fitcamp is a web platform designed for gym members to manage subscriptions and find gyms in specific cities. Its key easy membership subscriptions, gym search functionality, and access to various gym facilities for a seamless fitness experience.",
-    image: "/fitcamp.png",
+    image: "/fitcamp.webp",
     githubLink: "https://github.com/WibowoMulyo/bwa-fitcamp",
     stacks: ["Laravel", "Filament", "TailwindCSS", "MySQL"],
   },
