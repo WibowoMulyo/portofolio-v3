@@ -134,15 +134,12 @@ const Education = () => {
               {schoolsInfo[tab].roles.map((role, index) => (
                 <div
                   key={role}
-                  className="flex items-center justify-start mt-2"
+                  className="flex items-start justify-start mt-2 gap-1"
                 >
                   {schoolsInfo[tab].roles.length > 1 && (
-                    <RiArrowDropRightFill
-                      size={40}
-                      className="text-secondary-color-3"
-                    />
+                    <RiArrowDropRightFill className="text-secondary-color-3 flex-shrink-0 mt-0.5 w-5 h-5 sm:w-6 sm:h-6 lg:w-8 lg:h-8" />
                   )}
-                  <p className="text-base">{role}</p>
+                  <p className="text-sm sm:text-base leading-relaxed">{role}</p>
                 </div>
               ))}
             </motion.div>

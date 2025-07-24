@@ -128,18 +128,9 @@ export const sections = [
   { idRoute: "#contact", name: "Contact" },
 ];
 
-export const schools = ["High School", "Bachelor of Computer Science"];
+export const schools = ["Bachelor of Computer Science", "High School"];
 
 export const schoolsInfo = [
-  {
-    title: "Senior High School 4 Tegal",
-    school: "",
-    location: "Mathematics and Natural Sciences department",
-    duration: "2019 - 2022",
-    roles: [
-      "During high school, I developed a strong knowledge base in Math and Science, which equipped me with analytical and problem-solving skills that have come in handy in my career as a software developer. I was active in various extracurricular activities and committed to academic achievement, which helped me build a solid foundation to continue my studies in technology.",
-    ],
-  },
   {
     title: "Dian Nuswantoro University",
     school: "Semarang",
@@ -149,6 +140,15 @@ export const schoolsInfo = [
       "Current GPA: 3.93 / 4.00 (Summa Cum Laude)",
       "Outstanding Student of the 2022 Cohort",
       "Laboratory Assistant for Software Engineering and Database courses",
+    ],
+  },
+  {
+    title: "SMAN 4 Tegal",
+    school: "",
+    location: "Mathematics and Natural Sciences department",
+    duration: "2019 - 2022",
+    roles: [
+      "During high school, I developed a strong knowledge base in Math and Science, which equipped me with analytical and problem-solving skills that have come in handy in my career as a software developer. I was active in various extracurricular activities and committed to academic achievement, which helped me build a solid foundation to continue my studies in technology.",
     ],
   },
 ];
